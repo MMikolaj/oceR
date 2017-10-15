@@ -2,7 +2,7 @@
    <nav>
       <ul>
       <li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}current{% endif %}">Home</a></li>
-      <li><a href="{{site.baseurl}}/news.html">News</a></li>
-      <li><a href="{{site.baseurl}}/news2.html">News2</a></li>
+      <li><a href="{{site.baseurl}}/news.html" class="{% if page.url == '/news.html' %}current{% endif %}">News</a></li>
+      <li><a href="{{site.baseurl}}/news2.html" class="{% if page.url == '/news2' %}current{% endif %}">News2</a></li>
       </ul>
     </nav>
