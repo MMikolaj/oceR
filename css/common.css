@@ -24,7 +24,11 @@ font: normal 100%/1.2 Georgia, serif;
 	font-size: 1.5rem;
 }
 
-.nav-top > hr {
-border-width: 5px;
+.hr {
+border-width: 2px;
 color: blue;
+}
+
+.hr-top {
+	border-width: 5px;
 }
