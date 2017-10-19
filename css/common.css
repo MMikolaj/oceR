@@ -32,3 +32,8 @@ color: blue;
 .hr-top {
 	border-width: 5px;
 }
+
+.div.container {
+	width: 95%;
+	border: 2px solid gray;
+}
