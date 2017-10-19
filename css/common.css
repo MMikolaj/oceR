@@ -34,7 +34,13 @@ color: blue;
 }
 
 .container {
-	width: 95%;
+	width: 1000px;
 	border: 2px solid gray;
-	margin: auto;
+	margin: 5px;
+	align: left;
+}
+
+.side {
+	width: 150px;
+	align: right;
 }
