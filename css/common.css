@@ -33,14 +33,22 @@ color: blue;
 	border-width: 5px;
 }
 
+.whole {
+	width: 1200px;
+	border: 1px solid red;
+	overflow: hidden;
+}
+
 .container {
 	width: 1000px;
 	border: 2px solid gray;
 	margin: 5px;
-	align: left;
+	float: left;
 }
 
 .side {
 	width: 150px;
-	align: right;
+	overflow: hidden;
+	border: 1px solid green;
+	
 }
