@@ -30,7 +30,7 @@ font: normal 100%/1.2 Georgia, serif;
 
 .hr {
 border-width: 2px;
-color: blue;
+border-top: solid blue;
 }
 
 .hr-top {
